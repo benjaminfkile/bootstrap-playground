@@ -51,17 +51,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* {this.AlertDismissible()} */}
+        {this.AlertDismissible()}
 
-        {/* <Button variant="flat" size="xxl">
+        <Button variant="flat" size="xxl">
           flat button
-        </Button> */}
+        </Button>
 
-        {/* <Button bsPrefix="super-btn" variant="primary">
+        <Button bsPrefix="super-btn" variant="primary">
           Super button
-        </Button> */}
+        </Button>
 
-        {/* <Container>
+        <Container>
           <Row>
             <Col>1 of 2</Col>
             <Col>2 of 2</Col>
@@ -71,8 +71,8 @@ class App extends Component {
             <Col>2 of 3</Col>
             <Col>3 of 3</Col>
           </Row>
-        </Container> */}
-{/* 
+        </Container>
+
         {[
           'primary',
           'secondary',
@@ -86,11 +86,11 @@ class App extends Component {
           <Alert key={idx} variant={variant}>
             This is a {variant} alert—check it out!
           </Alert>
-        ))} */}
+        ))}
 
 
 
-        {/* <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="0">
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="0">
               Click me!
@@ -107,7 +107,7 @@ class App extends Component {
               <Card.Body>Hello! I'm another body</Card.Body>
             </Accordion.Collapse>
           </Card>
-        </Accordion> */}
+        </Accordion>
 
 
 
